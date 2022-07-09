@@ -1,0 +1,100 @@
+body{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #212121;
+    font-family: 'Smokum', cursive;
+}
+.logo{
+    display: flex;
+    width: 50px;
+    height: 75px;
+    padding: 25px;
+}
+.title{
+    margin-top: 3rem;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+h1{
+    font-size: 6rem;
+    color: bisque;
+    justify-content: center;
+}
+.soga{
+    margin-top: 7rem;
+    position: absolute;
+    width: 50px;
+    height: 125px;
+    
+}
+
+.container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-button{
+    width: 360px;
+    height: 100px;
+    background-color: rgb(111, 105, 98);
+    border-radius: 20px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    justify-content: space-around;
+    box-shadow: 2px 3px 4px #fff;
+    
+    
+}
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: #212121;
+}
+a:hover{
+    color: #fff;
+    transition: 0,50ms;
+}
+.button{
+    width: 150px;
+    height: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    box-shadow: 5px 8px 10px #212121;
+    font-family: 'Smokum', cursive;
+    color: #fff;
+}
+.button1{
+    width: 150px;
+    height: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    box-shadow: 5px 8px 10px #212121;
+    font-family: 'Smokum', cursive;
+    color: #fff;
+}
+.button:hover{
+    background-color: rgb(230, 180, 118);
+    transition: 1s;
+}
+.button1:hover{
+    background-color: rgb(230, 180, 118);
+    transition: 1s;
+}
+.footer{
+    display: flex;
+    width: 98%;
+    height: 2rem;
+    margin-top: 6rem;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    justify-content: right;
+        
+}
